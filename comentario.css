@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Estilo do formulário de comentário */
+#comment-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#comment-text {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: vertical; /* Permite redimensionar verticalmente */
+}
+
+#comment-author {
+    width: calc(100% - 22px); /* Calcula o tamanho com margem para o botão */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#comment-author:focus,
+#comment-text:focus {
+    outline: none; /* Remove a borda de foco padrão */
+}
+
+#comment-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#comment-form button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo da seção de comentários */
+#comment-section {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.comment {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.comment h3 {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+.comment p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
