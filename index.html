@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="whatsapp-ConversImagem.ico" type="image/x-icon">
+  <img src="images-removebg-preview.png" width="150" height="150" alt="logosite">
+  <title>Inserir Número de Telefone</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #d6d4d4;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    input[type=text] {
+      padding: 10px;
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    audio {
+      margin-top: 20px;
+      display: block;
+      width: 100%;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+<body>
+  <h2>ENSIRA O NUMERO DO SEU AMIGO</h2>
+  <br>
+  <input type="text" id="telefone" placeholder="Digite um número de telefone">
+
+
+  <br><br>
+
+  <button onclick="reproduzirAudio()">LIGAR</button>
+
+  <br><br>
+
+  <!-- Áudio para reprodução -->
+  <audio id="meuAudio">
+    <source src="audio/audioerrt.mp3" type="audio/mpeg">
+    Seu navegador não suporta áudio HTML5.
+  </audio>
+
+  <script>
+    function reproduzirAudio() {
+      // Pegando o valor do número de telefone
+      var telefone = document.getElementById('telefone').value;
+
+      // Validando se o número de telefone foi preenchido
+      if (telefone.trim() === '') {
+        alert('Por favor, insira um número de telefone antes de efetua a ligaçao o áudio.');
+        return;
+      }
+
+      // Reproduzindo o áudio
+      var audio = document.getElementById('meuAudio');
+      audio.play();
+    }
+  </script>
+       
+</body>
+</html>
+
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>3D Layered Hover Effect | CodingNepal</title>
+    <!-- link ur FA here -->
+    <script src="https://kit.fontawesome.com/" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="icons">
+      <a href="#">
+</a>
+      <a href="https://www.instagram.com/kauan_da_silva_md3/">
+        <div class="layer">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span class="fab fa-instagram"></span>
+        </div>
+<div class="text">
+Instagram</div>
+</a>
+      <a href="https://youtube.com/shorts/yjbBsacnYqw?si=I73gvo2CuR9gu9Sz">
+        <div class="layer">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span class="fab fa-youtube"></span>
+        </div>
+<div class="text">
+YouTube</div>
+</a>
+    </div>
+</body>
+</html>
